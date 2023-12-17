@@ -28,10 +28,6 @@ class Solution:
 
 
 
-
-
-
-
 if __name__ == "__main__":
     S = Solution()
     result = S.longestCommonPrefix(["flower","flow","flight"])
