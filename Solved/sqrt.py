@@ -22,5 +22,6 @@ class Solution:
 
 if __name__ == "__main__":
     S = Solution()
-    result = S.mySqrt(8)
+    k = int(input())
+    result = S.mySqrt(k)
     print(result)
