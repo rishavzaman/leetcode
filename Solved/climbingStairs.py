@@ -3,8 +3,10 @@ class Solution:
         a = 0
         b = 1
 
-        i = 0
-        while i <= n:
+        
+        for i in range(n+1):
             a, b = b, a+b
             i += 1
         return a
+
+        
