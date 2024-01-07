@@ -1,0 +1,9 @@
+class Solution:
+    def isStrictlyPalindromic(self, n: int) -> bool:
+        # for b in range(2,n-2+1):
+        #     if str(int(str(n),b))[::-1] != str(int(str(n),b)):
+        #         return False
+        # return True
+
+        return False
+        # because n in base n-2 is always 12 (it is n-2 plus 2 more)
