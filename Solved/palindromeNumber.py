@@ -1,24 +1,23 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        if x < 0:
-            return(False)
+        # if x < 0:
+        #     return(False)
         
-        # y=0
-        # for i in len(x):
-        #     y+=x//10^i
+        # # y=0
+        # # for i in len(x):
+        # #     y+=x//10^i
         
-        # return(y)
+        # # return(y)
 
-        # i=0
-        # while True:
-        #     y+=x//10^
+        # # i=0
+        # # while True:
+        # #     y+=x//10^
 
-        # remove this text
-        # another test
+        # s = str(x)
+        # y = s[::-1]
+        # return(int(y) == x)
 
-        s = str(x)
-        y = s[::-1]
-        return(int(y) == x)
+        return str(x) == str(x)[::-1]
 
 
 
