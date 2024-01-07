@@ -1,6 +1,4 @@
 class Solution:
-    def mySqrt(self, x):
-        pass
     def longestCommonPrefix(self, strs: list[str]) -> str:
         size = len(strs)
         if size == 0:
@@ -16,7 +14,6 @@ class Solution:
         while i < minimum and strs[0][i] == strs[size-1][i]:
             i += 1
         
-        a = self.mySqrt(0)
         
         return(strs[0][0: i])
     
